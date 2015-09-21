@@ -1,0 +1,54 @@
+html,
+body {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+.mdl-layout__header,
+.mdl-layout__drawer-button,
+.mdl-layout__header .mdl-layout__drawer-button,
+.mdl-layout__header-row .mdl-navigation__link {
+    color: white;
+}
+
+.custom-drawer-header {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 16px;
+    height: 151px;
+    background-image: url('/assets/blackelegance_opt.jpg');
+    color: white;
+}
+
+.mdl-navigation__link .zmdi {
+    margin-right: 32px;
+}
+
+.mdl-navigation__link {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.56);
+    font-weight: 500;
+}
+
+.mdl-card__title-text {
+    font-weight: 400;
+}
+
+.content {
+    border-radius: 2px;
+    padding: 15px 56px 30px 56px;
+    margin-bottom: 80px;
+}

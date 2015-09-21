@@ -1,0 +1,25 @@
+# Site settings
+title: Concise MDL Style Guide
+name: 
+
+description: The Material Design and Material Design Lite documentation is comprehensive, but I wanted a one-page summary.
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "http://192.168.99.100:4000/" # the base hostname & protocol for your site
+url: ""
+
+google_analytics:
+
+
+# Build settings
+markdown: redcarpet
+
+excerpt_separator: <!--more-->
+
+exclude: _posts/images
+
+#redcarpet:
+#  extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
