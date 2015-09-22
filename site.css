@@ -52,3 +52,11 @@ body {
     padding: 15px 56px 30px 56px;
     margin-bottom: 80px;
 }
+
+.card__palette {
+    height: 150px;
+}
+
+.mdl-card {
+    min-width: 90px;
+}
