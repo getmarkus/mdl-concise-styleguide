@@ -54,80 +54,301 @@
 </head>
 
 <body>
-    <div class="mdl-layout mdl-layout--fixed-header mdl-js-layout">
-        <header class="mdl-layout__header mdl-layout__header--scroll">
-            <div class="mdl-layout__header-row">
-                <span class="mdl-layout-title">Material Design Lite</span>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+            <span class="mdl-layout-title">Material Design Lite - Concise Style Guide</span>
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
                 <a class="mdl-navigation__link" href="https://github.com/google/material-design-lite">https://github.com/google/material-design-lite</a>
                 <a class="mdl-navigation__link" href="http://www.getmdl.io/">http://www.getmdl.io/</a>
-            </div>
-        </header>
-        <main class="mdl-layout__content mdl-color--grey-100">
-            <div class="mdl-grid">
-                <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-                <div class="mdl-color--white mdl-shadow--4dp content mdl-cell mdl-cell--10-col">
-                    <div class="mdl-grid mdl-cell mdl-cell--12-col">
-                        <h5>Color Palette</h5></div>
-                    <div class="mdl-grid">
-
-                    <div class="mdl-cell mdl-cell--2-col mdl-card mdl-shadow--2dp">
-                        <div class="mdl-color--red card__palette" style="padding-bottom: 0px;">
-                        </div>
-                        <div class="mdl-card__supporting-text" style="padding-top: 0px; padding-bottom: 0px">
-                            <h3 class="mdl-card__subtitle-text">#F44336</h3>
-                        </div>
-                    </div>
-                    <div class="mdl-cell mdl-cell--2-col mdl-card mdl-shadow--2dp">
-                        <div class="mdl-color--red card__palette" style="padding-bottom: 0px;">
-                        </div>
-                        <div class="mdl-card__supporting-text" style="padding-top: 0px; padding-bottom: 0px">
-                            <h3 class="mdl-card__subtitle-text">#F44336</h3>
-                        </div>
-                    </div>
-                    <div class="mdl-cell mdl-cell--2-col mdl-card mdl-shadow--2dp">
-                        <div class="mdl-color--red card__palette" style="padding-bottom: 0px;">
-                        </div>
-                        <div class="mdl-card__supporting-text" style="padding-top: 0px; padding-bottom: 0px">
-                            <h3 class="mdl-card__subtitle-text">#F44336</h3>
-                        </div>
-                    </div>
-                    <div class="mdl-cell mdl-cell--2-col mdl-card mdl-shadow--2dp">
-                        <div class="mdl-color--red card__palette" style="padding-bottom: 0px;">
-                        </div>
-                        <div class="mdl-card__supporting-text" style="padding-top: 0px; padding-bottom: 0px">
-                            <h3 class="mdl-card__subtitle-text">#F44336</h3>
-                        </div>
-                    </div>
-                    <div class="mdl-cell mdl-cell--2-col mdl-card mdl-shadow--2dp">
-                        <div class="mdl-color--red card__palette" style="padding-bottom: 0px;">
-                        </div>
-                        <div class="mdl-card__supporting-text" style="padding-top: 0px; padding-bottom: 0px">
-                            <h3 class="mdl-card__subtitle-text">#F44336</h3>
-                        </div>
-                    </div>
-                    <div class="mdl-cell mdl-cell--2-col mdl-card mdl-shadow--2dp">
-                        <div class="mdl-color--red card__palette" style="padding-bottom: 0px;">
-                        </div>
-                        <div class="mdl-card__supporting-text" style="padding-top: 0px; padding-bottom: 0px">
-                            <h3 class="mdl-card__subtitle-text">#F44336</h3>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <footer class="mdl-mini-footer">
-                <div class="mdl-mini-footer--left-section">
-                    <ul class="mdl-mini-footer--link-list">
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">Privacy and Terms</a></li>
-                        <li><a href="#">User Agreement</a></li>
-                    </ul>
-                </div>
-            </footer>
-        </main>
+            </nav>
+        </div>
+    </header>
+    <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Material Design Lite</span>
+        <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="https://github.com/google/material-design-lite">MDL Github</a>
+            <a class="mdl-navigation__link" href="http://www.getmdl.io/">MDL Documentation</a>
+            <a class="mdl-navigation__link" href="http://www.google.com/design/spec/material-design/introduction.html">Material Design Documentation</a>
+            <a class="mdl-navigation__link" href="https://github.com/getmarkus/mdl-concise-styleguide">Fork This</a>
+        </nav>
     </div>
+    <main class="mdl-layout__content mdl-color--grey-100">
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+            <div class="mdl-color--white mdl-shadow--4dp content mdl-cell mdl-cell--10-col">
+                <div class="mdl-grid mdl-cell mdl-cell--12-col">
+                    <h5>Color Palette</h5></div>
+                <div class="mdl-grid">
 
-    {% include scripts.html %} {% include google.html %}
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--red card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#F44336</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--pink card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#E91E63</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--purple card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#9C27B0</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--deep-purple card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#673AB7</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--indigo card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#3F51B5</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--blue card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#2196F3</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--light-blue card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#03A9F4</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--cyan card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#00BCD4</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--teal card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#009688</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--green card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#4CAF50</h3>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="mdl-grid">
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--light-green card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#8BC34A</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--lime card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#CDDC39</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--light-blue card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#03A9F4</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--cyan card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#00BCD4</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--teal card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#009688</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--green card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#4CAF50</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--light-green card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#8BC34A</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--lime card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#CDDC39</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--yellow card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#FFEB3B</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--amber card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#FFC107</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdl-grid">                    
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--orange card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#FF9800</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--deep-orange card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#FF5722</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--brown card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#795548</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--grey card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#9E9E9E</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--blue-grey card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#607D8B</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--black card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#000000</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--white card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">#FFFFFF</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdl-grid">
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--primary card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">Primary</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--primary-contrast card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">P.Contrast</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--primary-dark card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">P.Dark</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--accent card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">Accent</h3>
+                        </div>
+                    </div>
+                    <div class="card_chip mdl-cell mdl-cell--1-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-color--accent-contrast card__palette" style="padding-bottom: 0px;">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="mdl-card__subtitle-text">A.Contrast</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdl-grid mdl-cell mdl-cell--12-col">
+                    <h5>Typography</h5></div>
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--5-col mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title" style="padding-bottom: 0px;">
+                            <h1 class="">Roboto H1</h1>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h2 class="">H2</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 class="">H3</h3>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h4 class="">H4</h4>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h5 class="">H5</h5>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h6 class="">H6</h6>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <footer class="mdl-mini-footer">
+            <div class="mdl-mini-footer--left-section">
+                
+            </div>
+        </footer>
+    </main>
+</div>
+
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+    {% include google.html %}
 </body>
 
 </html>
