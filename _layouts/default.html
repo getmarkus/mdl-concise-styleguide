@@ -49,8 +49,13 @@
     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.grey-blue.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    
+    {% if site.baseurl %}
+      {% include links.html %}
+    {% else %}
     <link rel="stylesheet" href="/solarized-dark.css">
     <link rel="stylesheet" href="/site.css">
+    {% endif %}
 </head>
 
 <body>

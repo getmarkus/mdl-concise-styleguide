@@ -4,7 +4,7 @@ name:
 
 description: The Material Design and Material Design Lite documentation is comprehensive, but I wanted a one-page summary.
 
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "mdl-concise-styleguide" # the subpath of your site, e.g. /blog/
 #url: "http://192.168.99.100:4000/" # the base hostname & protocol for your site
 url: ""
 
