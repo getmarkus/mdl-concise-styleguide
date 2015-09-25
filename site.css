@@ -47,12 +47,6 @@ body {
     font-weight: 400;
 }
 
-.content {
-    border-radius: 2px;
-    padding: 15px 56px 30px 56px;
-    margin-bottom: 80px;
-}
-
 .card__palette {
     height: 45px;
 }
